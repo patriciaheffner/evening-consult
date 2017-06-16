@@ -2,6 +2,9 @@ const csvFile = require('./stock_photo_coolness.csv');
 import './style.less';
 // var Highcharts = require('highcharts-more');
 $(function () {
+
+    console.log(csvFile, 'csv data by state');
+
     $('#navigation').append("<img id='logo' src='./assets/logo-color.svg' />");
     $('#navigation-banner').append("<h2>Stock Photos of Nice Mountains for America</h2>");
 

@@ -24,8 +24,7 @@
     "svg-inline-loader": "^0.7.1"
   },
   "scripts": {
-    "dev": "WEBPACK_ENV=dev webpack-dev-server",
-    "start": "http-server --port ${PORT:-8080} build",
+    "start": "WEBPACK_ENV=dev webpack-dev-server",
     "build": "NODE_ENV=production webpack -p --config webpack.config.js"
   },
   "keywords": [],
